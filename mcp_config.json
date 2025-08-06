@@ -1,0 +1,129 @@
+{
+  "mcpServers": {
+    "wayfair": {
+      "command": "python",
+      "args": ["wayfair_mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  },
+  "tools": {
+    "search_wayfair_products": {
+      "description": "Search for products on Wayfair with various filters",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Search query for products"
+          },
+          "category": {
+            "type": "string",
+            "description": "Filter by category (Living Room, Bedroom, Dining Room, Office, Storage)"
+          },
+          "max_price": {
+            "type": "number",
+            "description": "Maximum price filter"
+          },
+          "min_rating": {
+            "type": "number",
+            "description": "Minimum rating filter (1-5)"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Maximum number of results (default: 10)"
+          }
+        },
+        "required": ["query"]
+      }
+    },
+    "get_wayfair_product_details": {
+      "description": "Get detailed information about a specific Wayfair product",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_id": {
+            "type": "string",
+            "description": "Product ID to get details for"
+          }
+        },
+        "required": ["product_id"]
+      }
+    },
+    "compare_wayfair_products": {
+      "description": "Compare multiple Wayfair products side by side",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "product_ids": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "List of product IDs to compare"
+          }
+        },
+        "required": ["product_ids"]
+      }
+    },
+    "get_wayfair_categories": {
+      "description": "Get all available Wayfair categories and subcategories",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    "get_wayfair_deals": {
+      "description": "Get Wayfair products with significant discounts",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "min_discount": {
+            "type": "integer",
+            "description": "Minimum discount percentage (default: 20)"
+          }
+        }
+      }
+    },
+    "add_to_wayfair_cart": {
+      "description": "Add products to Wayfair shopping cart",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "product_id": {"type": "string"},
+                "quantity": {"type": "integer", "default": 1}
+              },
+              "required": ["product_id"]
+            },
+            "description": "List of items to add to cart"
+          }
+        },
+        "required": ["items"]
+      }
+    },
+    "get_wayfair_cart": {
+      "description": "Get current Wayfair shopping cart contents",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "server": {
+    "host": "localhost",
+    "port": 8000,
+    "debug": true
+  },
+  "metadata": {
+    "name": "Wayfair MCP Server",
+    "version": "1.0.0",
+    "description": "Structured access to Wayfair product data for AI agents",
+    "author": "Wayfair MCP Team",
+    "repository": "https://github.com/wayfair/mcp-server",
+    "license": "MIT"
+  }
+} 

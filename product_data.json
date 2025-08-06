@@ -1,0 +1,297 @@
+{
+  "products": [
+    {
+      "id": "WF001",
+      "name": "Modern L-Shaped Sectional Sofa",
+      "category": "Living Room",
+      "subcategory": "Sofas & Couches",
+      "brand": "Wayfair Basics",
+      "price": 899.99,
+      "original_price": 1299.99,
+      "discount_percentage": 31,
+      "rating": 4.6,
+      "review_count": 1247,
+      "availability": "In Stock",
+      "delivery_estimate": "3-5 business days",
+      "shipping_cost": 0,
+      "description": "Contemporary L-shaped sectional with premium fabric upholstery. Perfect for family gatherings and movie nights.",
+      "features": [
+        "L-shaped design for maximum seating",
+        "Premium polyester blend fabric",
+        "High-density foam cushions",
+        "Sturdy wood frame construction",
+        "Easy to clean and maintain"
+      ],
+      "dimensions": {
+        "width": 120,
+        "depth": 84,
+        "height": 35,
+        "seat_height": 18
+      },
+      "colors": ["Charcoal Gray", "Beige", "Navy Blue"],
+      "materials": ["Polyester blend", "Wood frame", "High-density foam"],
+      "warranty": "1 year limited warranty",
+      "assembly_required": true,
+      "weight": 85
+    },
+    {
+      "id": "WF002",
+      "name": "Queen Platform Bed Frame",
+      "category": "Bedroom",
+      "subcategory": "Bed Frames",
+      "brand": "Sleep Master",
+      "price": 299.99,
+      "original_price": 399.99,
+      "discount_percentage": 25,
+      "rating": 4.4,
+      "review_count": 892,
+      "availability": "In Stock",
+      "delivery_estimate": "2-4 business days",
+      "shipping_cost": 0,
+      "description": "Sleek platform bed frame with upholstered headboard. Modern design with easy assembly.",
+      "features": [
+        "Upholstered headboard",
+        "Platform design - no box spring needed",
+        "Easy assembly with included tools",
+        "Sturdy steel frame",
+        "Fabric-covered headboard"
+      ],
+      "dimensions": {
+        "width": 60,
+        "depth": 80,
+        "height": 45,
+        "headboard_height": 45
+      },
+      "colors": ["Gray", "Beige", "Navy"],
+      "materials": ["Steel frame", "Polyester fabric", "MDF"],
+      "warranty": "2 year warranty",
+      "assembly_required": true,
+      "weight": 45
+    },
+    {
+      "id": "WF003",
+      "name": "5-Drawer Dresser with Mirror",
+      "category": "Bedroom",
+      "subcategory": "Dressers",
+      "brand": "Home Decorators Collection",
+      "price": 449.99,
+      "original_price": 599.99,
+      "discount_percentage": 25,
+      "rating": 4.7,
+      "review_count": 567,
+      "availability": "In Stock",
+      "delivery_estimate": "3-5 business days",
+      "shipping_cost": 0,
+      "description": "Elegant 5-drawer dresser with attached mirror. Perfect storage solution for any bedroom.",
+      "features": [
+        "5 spacious drawers",
+        "Attached mirror",
+        "Solid wood construction",
+        "Smooth drawer glides",
+        "Classic design"
+      ],
+      "dimensions": {
+        "width": 48,
+        "depth": 18,
+        "height": 72
+      },
+      "colors": ["White", "Espresso", "Gray"],
+      "materials": ["Solid wood", "MDF", "Mirror"],
+      "warranty": "1 year warranty",
+      "assembly_required": true,
+      "weight": 120
+    },
+    {
+      "id": "WF004",
+      "name": "Dining Table Set for 6",
+      "category": "Dining Room",
+      "subcategory": "Dining Sets",
+      "brand": "Walker Edison",
+      "price": 599.99,
+      "original_price": 799.99,
+      "discount_percentage": 25,
+      "rating": 4.5,
+      "review_count": 423,
+      "availability": "In Stock",
+      "delivery_estimate": "5-7 business days",
+      "shipping_cost": 0,
+      "description": "Complete dining set includes table and 6 chairs. Perfect for family meals and entertaining.",
+      "features": [
+        "Extends from 60\" to 84\"",
+        "6 comfortable chairs included",
+        "Solid wood table top",
+        "Metal legs for stability",
+        "Easy to clean surface"
+      ],
+      "dimensions": {
+        "table_width": 60,
+        "table_depth": 36,
+        "table_height": 30,
+        "extended_width": 84
+      },
+      "colors": ["Walnut", "Oak", "White"],
+      "materials": ["Solid wood", "Metal", "Fabric"],
+      "warranty": "1 year warranty",
+      "assembly_required": true,
+      "weight": 150
+    },
+    {
+      "id": "WF005",
+      "name": "Ergonomic Office Chair",
+      "category": "Office",
+      "subcategory": "Office Chairs",
+      "brand": "Flash Furniture",
+      "price": 199.99,
+      "original_price": 299.99,
+      "discount_percentage": 33,
+      "rating": 4.3,
+      "review_count": 1567,
+      "availability": "In Stock",
+      "delivery_estimate": "2-3 business days",
+      "shipping_cost": 0,
+      "description": "High-back ergonomic office chair with adjustable features. Perfect for long work hours.",
+      "features": [
+        "Adjustable height",
+        "Lumbar support",
+        "Breathable mesh back",
+        "Padded seat cushion",
+        "360-degree swivel"
+      ],
+      "dimensions": {
+        "width": 26,
+        "depth": 26,
+        "height": 45,
+        "seat_height": 18
+      },
+      "colors": ["Black", "Gray", "Blue"],
+      "materials": ["Mesh", "Foam", "Metal"],
+      "warranty": "2 year warranty",
+      "assembly_required": false,
+      "weight": 25
+    },
+    {
+      "id": "WF006",
+      "name": "Coffee Table with Storage",
+      "category": "Living Room",
+      "subcategory": "Coffee Tables",
+      "brand": "Safavieh",
+      "price": 249.99,
+      "original_price": 349.99,
+      "discount_percentage": 29,
+      "rating": 4.6,
+      "review_count": 789,
+      "availability": "In Stock",
+      "delivery_estimate": "3-5 business days",
+      "shipping_cost": 0,
+      "description": "Versatile coffee table with hidden storage compartment. Perfect for living room organization.",
+      "features": [
+        "Hidden storage compartment",
+        "Solid wood construction",
+        "Classic design",
+        "Easy to assemble",
+        "Versatile styling"
+      ],
+      "dimensions": {
+        "width": 48,
+        "depth": 24,
+        "height": 18
+      },
+      "colors": ["Espresso", "Oak", "White"],
+      "materials": ["Solid wood", "MDF"],
+      "warranty": "1 year warranty",
+      "assembly_required": true,
+      "weight": 65
+    },
+    {
+      "id": "WF007",
+      "name": "Bookshelf with 5 Shelves",
+      "category": "Storage",
+      "subcategory": "Bookshelves",
+      "brand": "Better Homes & Gardens",
+      "price": 129.99,
+      "original_price": 179.99,
+      "discount_percentage": 28,
+      "rating": 4.4,
+      "review_count": 2341,
+      "availability": "In Stock",
+      "delivery_estimate": "2-4 business days",
+      "shipping_cost": 0,
+      "description": "Versatile 5-shelf bookcase perfect for books, decor, and storage. Easy assembly required.",
+      "features": [
+        "5 adjustable shelves",
+        "Solid wood construction",
+        "Classic design",
+        "Easy assembly",
+        "Versatile storage"
+      ],
+      "dimensions": {
+        "width": 36,
+        "depth": 12,
+        "height": 72
+      },
+      "colors": ["White", "Espresso", "Oak"],
+      "materials": ["Solid wood", "MDF"],
+      "warranty": "1 year warranty",
+      "assembly_required": true,
+      "weight": 45
+    },
+    {
+      "id": "WF008",
+      "name": "Accent Armchair",
+      "category": "Living Room",
+      "subcategory": "Accent Chairs",
+      "brand": "Christopher Knight Home",
+      "price": 179.99,
+      "original_price": 249.99,
+      "discount_percentage": 28,
+      "rating": 4.5,
+      "review_count": 892,
+      "availability": "In Stock",
+      "delivery_estimate": "3-5 business days",
+      "shipping_cost": 0,
+      "description": "Comfortable accent chair with modern design. Perfect for reading nooks or additional seating.",
+      "features": [
+        "Plush fabric upholstery",
+        "Comfortable cushioning",
+        "Modern design",
+        "Sturdy construction",
+        "Easy to clean"
+      ],
+      "dimensions": {
+        "width": 32,
+        "depth": 32,
+        "height": 38,
+        "seat_height": 18
+      },
+      "colors": ["Gray", "Beige", "Navy", "Rust"],
+      "materials": ["Polyester blend", "Wood frame", "Foam"],
+      "warranty": "1 year warranty",
+      "assembly_required": false,
+      "weight": 35
+    }
+  ],
+  "categories": [
+    "Living Room",
+    "Bedroom", 
+    "Dining Room",
+    "Office",
+    "Storage"
+  ],
+  "subcategories": {
+    "Living Room": ["Sofas & Couches", "Coffee Tables", "Accent Chairs", "TV Stands", "Side Tables"],
+    "Bedroom": ["Bed Frames", "Dressers", "Nightstands", "Wardrobes", "Bedding"],
+    "Dining Room": ["Dining Sets", "Dining Tables", "Dining Chairs", "Buffets", "China Cabinets"],
+    "Office": ["Office Chairs", "Desks", "Bookcases", "Filing Cabinets", "Office Accessories"],
+    "Storage": ["Bookshelves", "Cabinets", "Wardrobes", "Storage Bins", "Closet Organizers"]
+  },
+  "brands": [
+    "Wayfair Basics",
+    "Sleep Master", 
+    "Home Decorators Collection",
+    "Walker Edison",
+    "Flash Furniture",
+    "Safavieh",
+    "Better Homes & Gardens",
+    "Christopher Knight Home"
+  ]
+} 
